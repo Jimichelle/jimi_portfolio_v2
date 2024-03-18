@@ -41,7 +41,7 @@ const NavProps: React.FC<NavProps> = ({ children }) => {
     return(
         <main className="flex flex-col items-center justify-between text-white z-10 ">
       <div className="relative flex flex-row justify-between mx-[2dvw] my-[5dvh] border-white border-[1px] h-[90dvh] w-[94dvw] ">
-        <section className="flex flex-col z-10 border-2 border-white mr-2 overscroll-y-none ">
+        <section className="flex flex-col z-10  overscroll-y-none ">
           <div className="p-5 w-[34dvw] ">
             <h2 className="text-3xl font-NeueMontreal">
               Jimi Denysiak

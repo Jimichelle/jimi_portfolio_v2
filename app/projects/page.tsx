@@ -50,7 +50,7 @@ const Projects: React.FC<ProjectsProps> = ({children }) => {
         {
             label : 'Study of a guitar tuner',
             active: pathname === '/',
-            href: '#',
+            href: '/slide_accodeur_de_guitare.pdf',
             date : '2019 - 2020'
         }
 
