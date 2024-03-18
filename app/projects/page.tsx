@@ -3,11 +3,7 @@ import React from "react";
 import { usePathname } from "next/navigation";
 import { useMemo } from "react";
 
-interface ProjectsProps {
-    children: React.ReactNode;
-}
-
-const Projects: React.FC<ProjectsProps> = () => {
+const Projects: React.FC = () => {
 
     const pathname = usePathname();
 
