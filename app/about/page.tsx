@@ -1,13 +1,10 @@
-'use client'
-
-import { usePathname } from "next/navigation";
-import { useMemo } from "react";
+import React from "react";
 
 interface AboutProps {
-    children: React.ReactNode;
+    
 }
 
-const About: React.FC<AboutProps> = ({ children }) => {
+const About: React.FC<AboutProps> = ({ }) => {
     
 
         return(
