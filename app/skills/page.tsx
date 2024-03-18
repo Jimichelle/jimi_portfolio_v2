@@ -2,11 +2,7 @@
 import { useMemo } from "react";
 import React from "react";
 
-interface SkillsProps {
-    children: React.ReactNode;
-}
-
-const Skills: React.FC<SkillsProps> = ({ children }) => {
+const Skills: React.FC = () => {
 
     const Languages = useMemo( () => [
         {
