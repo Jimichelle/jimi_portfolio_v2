@@ -22,7 +22,7 @@ const About: React.FC<AboutProps> = ({ children }) => {
                     I&apos;m from France and I&apos;m studying Computer Science in Paris. I&apos;m preparing a Bachelor&apos;s degree in Computer Science
                 </p>
                 <p className="text-sm py-1 z-10">
-                    I&apos;m currently searching for an apprenticeship in development in Île-de-France and I&apos;m open to any opportunity in the field of computer science
+                    I&apos;m currently searching for an apprenticeship in development in Ile-de-France and I&apos;m open to any opportunity in the field of computer science
                 </p>
             </main>
         )
