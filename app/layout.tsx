@@ -22,9 +22,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <NavProps>
-          
+          <Suspense fallback={<Loading />}>
           {children}
-          
+          </Suspense>
         </NavProps>
       </body>
     </html>
