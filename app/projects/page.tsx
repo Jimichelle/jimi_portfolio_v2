@@ -7,7 +7,7 @@ interface ProjectsProps {
     children: React.ReactNode;
 }
 
-const Projects: React.FC<ProjectsProps> = ({children }) => {
+const Projects: React.FC<ProjectsProps> = () => {
 
     const pathname = usePathname();
 
@@ -55,7 +55,7 @@ const Projects: React.FC<ProjectsProps> = ({children }) => {
             date : '2019 - 2020'
         }
 
-    ], [])
+    ], [pathname])
 
     return (
         <main className="flex flex-col p-5 py-10 text-right">
