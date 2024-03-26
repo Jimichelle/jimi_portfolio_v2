@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
             active: pathname === '/',
             href: 'https://ai-concept-jimichelle.vercel.app/',
             date : 'march 2024'
-        }
+        },
         {
             label : 'Discord Bot',
             active: pathname === '/',
