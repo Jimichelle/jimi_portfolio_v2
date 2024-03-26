@@ -8,7 +8,7 @@ const About: React.FC<AboutProps> = ({ }) => {
     
 
         return(
-            <main className="flex flex-col p-5 text-right text-white z-10">
+            <main className="flex flex-col p-5 text-right z-10">
                 <h1 className="font-bold text-xl py-1 z-10">
                     About
                 </h1>

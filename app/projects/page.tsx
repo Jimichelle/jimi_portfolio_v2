@@ -9,6 +9,12 @@ const Projects: React.FC = () => {
 
     const routes = useMemo( () => [
         {
+            label: 'AI Concept Remake',
+            active: pathname === '/',
+            href: 'https://ai-concept-jimichelle.vercel.app/',
+            date : 'march 2024'
+        }
+        {
             label : 'Discord Bot',
             active: pathname === '/',
             href: '/',
@@ -30,7 +36,7 @@ const Projects: React.FC = () => {
             label : 'EMAJ Website',
             active: pathname === '/',
             href: 'https://emaj78.org',
-            date : 'May 2023'
+            date : 'may 2023'
         },
         {
             label : 'Design of a Cardiac Sensor',
