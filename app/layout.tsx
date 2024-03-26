@@ -60,7 +60,7 @@ export default function RootLayout({
       <body className={NueueMontreal.className}>
         <NavProps>
           <Suspense fallback={<Loading />}>
-            <div className="bg-black">
+            <div className="">
               {children}
             </div>
           </Suspense>

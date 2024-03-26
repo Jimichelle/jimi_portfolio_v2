@@ -39,7 +39,7 @@ const NavProps: React.FC<NavProps> = ({ children }) => {
     ], [])
 
     return(
-        <main className="flex flex-col items-center justify-between text-white z-10 ">
+        <main className="flex flex-col items-center justify-between text-white z-10 bg-black">
       <div className="relative flex flex-row justify-between mx-[2dvw] my-[5dvh] border-white border-[1px] h-[90dvh] w-[94dvw] ">
         <section className="flex flex-col z-10  overscroll-y-none ">
           <div className="p-5 w-[34dvw] ">
